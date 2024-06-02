@@ -1,0 +1,14 @@
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\bin\Debug\net8.0\CajeroCompleto.exe
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\bin\Debug\net8.0\CajeroCompleto.deps.json
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\bin\Debug\net8.0\CajeroCompleto.runtimeconfig.json
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\bin\Debug\net8.0\CajeroCompleto.dll
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\bin\Debug\net8.0\CajeroCompleto.pdb
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\obj\Debug\net8.0\CajeroCompleto.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\obj\Debug\net8.0\CajeroCompleto.AssemblyInfoInputs.cache
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\obj\Debug\net8.0\CajeroCompleto.AssemblyInfo.cs
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\obj\Debug\net8.0\CajeroCompleto.csproj.CoreCompileInputs.cache
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\obj\Debug\net8.0\CajeroCompleto.dll
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\obj\Debug\net8.0\refint\CajeroCompleto.dll
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\obj\Debug\net8.0\CajeroCompleto.pdb
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\obj\Debug\net8.0\CajeroCompleto.genruntimeconfig.cache
+C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\obj\Debug\net8.0\ref\CajeroCompleto.dll

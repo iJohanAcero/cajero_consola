@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CajeroCompleto/1.0.0": {
+        "runtime": {
+          "CajeroCompleto.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CajeroCompleto/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
