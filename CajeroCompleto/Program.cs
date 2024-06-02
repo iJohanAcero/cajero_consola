@@ -9,11 +9,11 @@ namespace Cajero
     class Cajero
     {
         static string[,] usuario =    //MATRIZ DECLARADA CON VALORES YA EXISTENTES
-                {
-                    {"1010", "1010", "1000000"},
-                    {"2020", "2020", "2000000"},
-                    {"4040", "4040", "4000000"}
-                };
+        {
+            {"1010", "1010", "1000000"},
+            {"2020", "2020", "2000000"},
+            {"4040", "4040", "4000000"}
+        };
 
         static void RegistroLOG(string mensaje)
         {
@@ -42,7 +42,6 @@ namespace Cajero
             {
                 try
                 {
-                   
 
                     Console.WriteLine("CAJERO AUTOMATICO SENA");
                     Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
