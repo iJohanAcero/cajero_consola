@@ -242,7 +242,7 @@ namespace Cajero
 
                     usuario[id, 1] = Convert.ToString(nueva); //CAMBIA EL PIN GUARDADO EN LA MATRIZ POR LA NUEVA ESCRITA
 
-                    Console.WriteLine("PIN CAMBBIADO EXITOSAMENTE");
+                    Console.WriteLine("PIN CAMBIADO EXITOSAMENTE");
                     RegistroLOG("PIN CAMBIADO EXITOSAMENTE");
 
                     Menu(id, usuario); //ME REGRESA AL MENU PARA VALIDAR EL PIN    
