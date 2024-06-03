@@ -22,7 +22,7 @@ namespace Cajero
                 //C:\Users\Johan\source\repos\CajeroCompleto\CajeroCompleto\bin\Debug\net8.0\registro.txt
                 using (StreamWriter sr = File.AppendText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "registro.txt"))) //CREA EL ARCHIVO DE REGISTRO EN LA CARPETA DEBUG DEL PROYECTO
                 {
-                    sr.WriteLine($"{DateTime.Now}: {mensaje}"); //$ SIRVE PARA QUE SE PUEDA ESCRIBIR CODIGO DENTRO DEL TEXTO
+                    sr.WriteLine($"{DateTime.Now}: {mensaje}"); //$ SIRVE PARA QUE SE PUEDA ESCRIBIR CÓDIGO DENTRO DEL TEXTO
                 }
 
             }
@@ -43,7 +43,7 @@ namespace Cajero
                 try
                 {
 
-                    Console.WriteLine("CAJERO AUTOMATICO SENA");
+                    Console.WriteLine("CAJERO AUTOMÁTICO SENA");
                     Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
 
                     Console.WriteLine("DIGITE SU NUMERO DE CUENTA");
@@ -57,24 +57,24 @@ namespace Cajero
                     Console.WriteLine("- - - - - - - - - - - - - - - - - - - - - - - - - - - - -");
                     int id = -1; //DECLARO QUE EL ID INICIA EN -1
 
-                    //VALIDAR INFORMACION DENTRO DE LA MATRIZ PARA PODER ACCEDER AL MENU
+                    //VALIDAR INFORMACIÓN DENTRO DE LA MATRIZ PARA PODER ACCEDER AL MENU
                     //
                     for (int i = 0; i < usuario.GetLength(0); i++)
                     {
 
                         if (usuario[i, 1] == PIN && usuario[i, 0] == cuenta.ToString()) //VALIDA SI LA FILA I DE LA COLUMNA 1 ES IGUAL AL PIN
-                                                                                        //Y USUARIO QUE ESTAN EN LA FILA I DE LA COLUMNA 0
+                                                                                        //Y USUARIO QUE ESTÁN EN LA FILA I DE LA COLUMNA 0
                         {
                             id = i; //EL ID SE CONVIERTE EN 0
                             break;
                         }
                     }
 
-                    if (id > -1) //YA QUE EL ID YA ES MAYOR A 0, ENTONCES ME LLEVA AL OTRO METODO
+                    if (id > -1) //YA QUE EL ID YA ES MAYOR A 0, ENTONCES ME LLEVA AL OTRO MÉTODO
                     {
                         Console.Clear(); //LIMPIA LA CONSOLA
-                        Menu(id, usuario); //MUESTRA LA OTRA FUNCION LLAMADA MENU
-                        RegistroLOG($"INGRESA A LA FUNCION MENU CON ESTE ID: {id}");
+                        Menu(id, usuario); //MUESTRA LA OTRA FUNCIÓN LLAMADA MENU
+                        RegistroLOG($"INGRESA A LA FUNCIÓN MENU CON ESTE ID: {id}");
                     }
                     else
                     {
@@ -91,7 +91,7 @@ namespace Cajero
             }   
         }
 
-        static void Menu(int id, string[,] usuario) //FUNCION MENU
+        static void Menu(int id, string[,] usuario) //FUNCIÓN MENU
 
         {
             while (true)
@@ -101,7 +101,7 @@ namespace Cajero
                 Console.WriteLine("------------------------------------------------------------");
                 Console.WriteLine("1. RETIRAR DINERO");
                 Console.WriteLine("2. CONSULTAR SALDO CUENTA CORRIENTE");
-                Console.WriteLine("3. TRANSACCION A OTRAS CUENTAS");
+                Console.WriteLine("3. TRANSACCIÓN A OTRAS CUENTAS");
                 Console.WriteLine("4. CAMBIO DE PIN");
                 Console.WriteLine("5. SALIR");
                 int opci = int.Parse(Console.ReadLine());
@@ -113,7 +113,7 @@ namespace Cajero
                         break;
 
                     case 2:
-                        RegistroLOG("COSULTAR SALDO");
+                        RegistroLOG("CONSULTAR SALDO");
                         saldo(id, usuario);
                         break;
 
@@ -167,7 +167,7 @@ namespace Cajero
                 else
                 {
                     Console.WriteLine("SALDO INSUFICIENTE PARA ESTE RETIRO");
-                    RegistroLOG("SALDO INSUFICIETNE");
+                    RegistroLOG("SALDO INSUFICIENTE");
                 }
             }
 
